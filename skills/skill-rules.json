@@ -111,6 +111,44 @@
           "design.*system"
         ]
       }
+    },
+    "game-dev": {
+      "type": "domain",
+      "enforcement": "suggest",
+      "priority": "high",
+      "promptTriggers": {
+        "keywords": [
+          "game development",
+          "game design",
+          "unity game",
+          "gameplay",
+          "游戏开发",
+          "游戏设计",
+          "Unity游戏",
+          "玩法设计",
+          "游戏系统",
+          "关卡设计",
+          "垂直切片",
+          "前期制作",
+          "content expansion",
+          "vertical slice",
+          "game preproduction",
+          "progression system",
+          "game economy",
+          "养成系统",
+          "经济系统"
+        ],
+        "intentPatterns": [
+          "game\\s*(development|design|workflow)",
+          "unity.*game",
+          "(design|create).*(gameplay|game\\s*system)",
+          "游戏.*开发",
+          "设计.*游戏",
+          "(vertical\\s*slice|preproduction|content\\s*expansion)",
+          "(progression|economy|meta-game).*system",
+          "(养成|经济|元游戏).*系统"
+        ]
+      }
     }
   }
 }

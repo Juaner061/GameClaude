@@ -1,0 +1,39 @@
+{
+  "name": "game-dev-workflow",
+  "source": "./",
+  "description": "A full-stack game development workflow for solo developers using AI, covering gameplay design, systems, content pipelines, and Unity integration.",
+  "version": "1.0.0",
+  "author": {
+    "name": "GameClaude Workflow",
+    "url": "https://github.com/cexll/myclaude"
+  },
+  "homepage": "https://github.com/cexll/myclaude",
+  "repository": "https://github.com/cexll/myclaude",
+  "license": "MIT",
+  "keywords": [
+    "game-development",
+    "unity",
+    "game-design",
+    "gameplay",
+    "content-pipeline",
+    "solo-dev",
+    "ai-workflow"
+  ],
+  "category": "workflows",
+  "strict": false,
+  "commands": [
+    "./commands/run_game_preproduction.md",
+    "./commands/run_vertical_slice.md",
+    "./commands/run_content_expansion.md",
+    "./commands/run_polish_iteration.md"
+  ],
+  "agents": [
+    "./agents/creative-director.md",
+    "./agents/gameplay-designer.md",
+    "./agents/system-designer.md",
+    "./agents/technical-designer.md",
+    "./agents/content-pipeline-designer.md",
+    "./agents/level-content-designer.md",
+    "./agents/ai-producer.md"
+  ]
+}

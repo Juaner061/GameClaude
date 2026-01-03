@@ -108,6 +108,29 @@
           "description": "Copy development commands documentation"
         }
       ]
+    },
+    "game-dev": {
+      "enabled": false,
+      "description": "Full-stack game development workflow for solo developers",
+      "operations": [
+        {
+          "type": "merge_dir",
+          "source": "game-dev-workflow",
+          "description": "Merge game-dev commands and agents"
+        },
+        {
+          "type": "copy_file",
+          "source": "game-dev-workflow/README.md",
+          "target": "docs/GAME-DEV-WORKFLOW.md",
+          "description": "Copy game-dev workflow documentation"
+        },
+        {
+          "type": "copy_file",
+          "source": "game-dev-workflow/skills/game-dev/SKILL.md",
+          "target": "skills/game-dev/SKILL.md",
+          "description": "Install game-dev skill"
+        }
+      ]
     }
   }
 }
